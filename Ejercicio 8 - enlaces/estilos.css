@@ -1,0 +1,25 @@
+/*
+:link, aplica estilos a los enlaces que apuntan a páginas o 
+recursos que aún no han sido visitados por el usuario.
+• :visited, aplica estilos a los enlaces que apuntan a recursos
+ que han sido visitados
+anteriormente por el usuario. El historial de enlaces visitados se borra 
+automáticamente
+cada cierto tiempo y el usuario también puede borrarlo manualmente.
+• :hover, aplica estilos al enlace sobre el que el usuario ha posicionado 
+el puntero del ratón.
+• :active, aplica estilos al enlace que está clickeado el usuario.
+*/
+
+:link{
+    color:#CC0000;
+}
+
+:hover a{
+    background-color:#CC0000 ;
+    color: #FFF;
+}
+
+:visited{
+    color: #CCC;
+}
